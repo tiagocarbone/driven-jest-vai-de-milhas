@@ -56,7 +56,6 @@ describe('calculateDistance', () => {
     expect(distanceService.calculateDistance(rj, sp, false)).toBe(361);
   });
 
-  // Branch Coverage: isMiles = true
   it('should calculate distance in Miles when isMiles true', () => {
 
     expect(distanceService.calculateDistance(rj, sp, true)).toBe(224);
